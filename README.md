@@ -236,6 +236,11 @@ Contributions of any kind are very welcome. If someone implements their favorite
 
 # Building
 
+## REQUIREMENTS
+- SDL 3  
+Fedora -```sudo dnf install SDL3-devel```
+
+## STEPS TO BUILD
 Linux: cd src && make
 
 Windows and BSDs: cmake -B build -DCMAKE_BUILD_TYPE=Release && cd build && cmake --build .
@@ -249,6 +254,10 @@ Use Build_SteamOS.sh for Steam Deck
 x86_64 unless specified otherwise.
 
 VM is VirtualBox unless specified otherwise.
+
+- Fedora [HW] v44
+  
+  - Seemingly perfect
 
 - Arch Linux [HW] v0.8.3
   
